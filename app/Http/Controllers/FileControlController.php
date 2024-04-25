@@ -33,10 +33,8 @@ class FileControlController extends Controller
                 message: 'Not parameter need on request'
             );
 
-        $file = current($files);
-
         $this->fileControlService->save(
-            $file,
+            $files,
         );
 
         return $this->responseSuccess(
