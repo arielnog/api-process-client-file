@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use App\DataTransferObjects\CreateUserDTO;
 use App\Factories\Entities\UserFactory;
 use App\Services\UserService;
 use Illuminate\Database\Seeder;
